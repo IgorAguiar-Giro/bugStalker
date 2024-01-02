@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "lint:fix": "prettier --write"
+    "lint:fix": "prettier --write",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "Igor Aguiar",
   "license": "MIT",
@@ -15,6 +17,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "prettier": "^3.1.1"
   }
 }
