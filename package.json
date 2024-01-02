@@ -1,0 +1,16 @@
+{
+  "name": "bugstalker",
+  "version": "1.0.0",
+  "description": "Bug Stalker is a software made for keep the track of the bugs in the system and designate the right professional to fix it.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "Igor Aguiar",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
