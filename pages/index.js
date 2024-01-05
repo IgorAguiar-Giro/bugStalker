@@ -1,9 +1,3 @@
-function Home() {
-  return <h1>Teste</h1>;
+export default function Page() {
+  return <p className='myclass'>Some text</p>
 }
-
-function teste() {
-  console.log("teste");
-}
-
-export default Home;
