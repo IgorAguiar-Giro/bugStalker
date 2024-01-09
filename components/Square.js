@@ -2,7 +2,7 @@ import React from "react"
 
 const Square = ({color}) => {
   return ( 
-<div className={`${color} container border-box w-full h-96`} >
+<div className={`${color} container h-96 m-2 rounded-xl`} >
 
     <div className="text-3xl">
       Text

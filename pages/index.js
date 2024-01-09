@@ -7,7 +7,7 @@ export default function Page() {
  <Navbar/>
   
   <div className="bg-indigo-600 w-full min-h-screen flex justify-center">
-  <div className="container mx-auto">
+  <div className="container mx-auto px-8 py-4 flex flex-col">
     <Square color="bg-red-400"/>
     <Square color="bg-red-600"/>
     <Square color="bg-red-800"/>
