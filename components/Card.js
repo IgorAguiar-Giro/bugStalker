@@ -1,6 +1,6 @@
 import React from "react"
 
-const Square = ({color}) => {
+const Card = ({color}) => {
   return ( 
 <div className={`${color} container h-96 m-2 rounded-xl`} >
 
@@ -13,4 +13,4 @@ const Square = ({color}) => {
 )
 }
 
-export default Square
+export default Card

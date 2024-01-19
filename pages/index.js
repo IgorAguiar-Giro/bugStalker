@@ -1,5 +1,5 @@
 import Navbar from "components/Navbar";
-import Square from "components/Square";
+import Card from "components/Card";
 import Footer from "components/Footer";
 
 export default function Page() {
@@ -8,9 +8,9 @@ export default function Page() {
   
   <div className="bg-indigo-600 w-full min-h-screen flex justify-center">
   <div className="container mx-auto px-8 py-4 flex flex-col">
-    <Square color="bg-red-400"/>
-    <Square color="bg-red-600"/>
-    <Square color="bg-red-800"/>
+    <Card color="bg-red-400"/>
+    <Card color="bg-red-600"/>
+    <Card color="bg-red-800"/>
   </div>
   </div>
   <Footer/>

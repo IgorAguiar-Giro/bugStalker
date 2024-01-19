@@ -5,7 +5,7 @@ export default function Navbar() {
   let Links = [
     {name: "Home", link:"/"},
     {name: "About", link:"/"},
-    {name: "Sign in", link:"/"},
+    {name: "Sign in", link:"panel/bugStalker/"},
   ]
 
   let [open,setOpen] = useState(false);
