@@ -26,15 +26,15 @@ const Sidebar = () => {
       gap: true,
     },
     {
-      name: "Calendar",
-      link: "/panel/bugStalker/calendar",
-      icon: "calendar-outline",
-      gap: false,
-    },
-    {
       name: "Projects",
       link: "/panel/bugStalker/projects",
       icon: "folder-outline",
+      gap: false,
+    },
+    {
+      name: "Calendar",
+      link: "/panel/bugStalker/calendar",
+      icon: "calendar-outline",
       gap: false,
     },
     {
