@@ -9,9 +9,7 @@ const Layout = ({ children }) => {
       <Sidebar />
       <div className="w-full flex flex-col">
         <UserNavbar />
-        <main className="p-7 text-2xl font-semibold flex-1 h-screen">
-          {children}
-        </main>
+        <main className="p-7 font-semibold">{children}</main>
       </div>
 
       <script
